@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "Fancy Megafsm",
+    "version": "1.0",
+  
+    "description": "Nord theme for megafsm.",
+  
+    "icons": {
+        "48": "icons/icon.png"
+    },    
+    
+    "content_scripts": [
+      {
+        "css": [ "fancy-megafsm.css" ],
+        "matches": ["*://*.mega-bot.com/editor/"],
+        "js": ["fancy-megafsm.js"]
+      }
+    ]
+
+}  

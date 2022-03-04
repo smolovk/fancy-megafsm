@@ -1,0 +1,43 @@
+* {
+    --bg: #2e3440;
+    --bg-light: #3b4252;
+    --bg-hover: #434c5e;
+    --bg-button: #88c0d0;
+}
+
+body {
+    background: var(--bg);
+}
+
+.wrapper {
+    background: var(--bg);
+}
+
+.controle-nodebtn {
+    background: var(--bg);
+}
+
+.form-control {
+    border: 0;
+    border-radius: 0;
+    background: var(--bg-button) !important;
+    color: #2E3440 !important;
+}
+
+.dropdown__options {
+    background: var(--bg-light) !important;
+    color: #ECEFF4 !important;
+}
+
+/* buttons */
+.btn {
+    background: var(--bg-button);
+    color: var(--bg);
+    border: 0;
+    border-radius: 0;
+}
+
+.btn:hover {
+    background: var(--bg-hover);
+    color: var(--bg);
+}
