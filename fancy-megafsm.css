@@ -3,6 +3,17 @@
     --bg-light: #3b4252;
     --bg-hover: #434c5e;
     --bg-button: #88c0d0;
+
+    /*colors*/
+    --gray-green: #8FBCBB;
+    --gray-cyan: #88C0D0;
+    --blue-gray: #81A1C1;
+    --blue: #5E81AC;
+    --red: #BF616A;
+    --orange: #D08770;
+    --yellow: #EBCB8B;
+    --green: #A3BE8C
+    --purple: #B48EAD
 }
 
 body {
@@ -27,6 +38,10 @@ body {
 .dropdown__options {
     background: var(--bg-light) !important;
     color: #ECEFF4 !important;
+}
+
+.modal-content, .modal-dialog {
+    background: var(--bg);
 }
 
 /* buttons */

@@ -2,7 +2,7 @@
 
     "manifest_version": 2,
     "name": "Fancy Megafsm",
-    "version": "1.0",
+    "version": "1.1",
   
     "description": "Nord theme for megafsm.",
   
@@ -13,7 +13,7 @@
     "content_scripts": [
       {
         "css": [ "fancy-megafsm.css" ],
-        "matches": ["*://*.mega-bot.com/editor/"],
+        "matches": ["*://*.mega-bot.com/editor/*", "*://*.mega-bot.com/editor/*/*/*"],
         "js": ["fancy-megafsm.js"]
       }
     ]
