@@ -1,5 +1,1 @@
-document.addEventListener('keydown', e => {
-    if(e.code !== 'KeyE') return 
-    
-    console.log('editor');
-})
+console.log('Loaded fancy megaFSM!')
